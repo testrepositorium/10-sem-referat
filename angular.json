@@ -94,10 +94,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "sem-10-referat:build:production"
+              "buildTarget": "sem-10-referat:build:production"
             },
             "development": {
-              "browserTarget": "sem-10-referat:build:development"
+              "buildTarget": "sem-10-referat:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -105,7 +105,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "sem-10-referat:build"
+            "buildTarget": "sem-10-referat:build"
           }
         },
         "test": {
@@ -128,5 +128,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "e0dacfd7-a795-4d67-b927-b39919f34cdc"
   }
 }

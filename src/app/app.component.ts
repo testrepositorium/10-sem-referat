@@ -6,5 +6,6 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
     styleUrls: ['./app.component.scss'],
     standalone: true,
     changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: []
 })
 export class AppComponent {}
